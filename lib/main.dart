@@ -22,7 +22,6 @@ class _myAppState extends State<myApp> {
         Brightness.light
       }
       */
-      
       theme: ThemeData(brightness: isDark ? Brightness.dark : Brightness.light),
       home: Scaffold(
         appBar: AppBar(
